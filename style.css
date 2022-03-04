@@ -373,14 +373,13 @@ header {
 /* BUTTON ENDED */
 
 /* SLIDER */
-.container_for_slider{
+.container_for_slider {
 	width: 1300px;
 	margin: 0 auto;
 	padding: 30px 0px 0px 0px;
 }
 .slider {
 	width: 100%;
-	text-align: center;
 	background: linear-gradient(
 		to top,
 		#31609f 50%,

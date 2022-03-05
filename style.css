@@ -316,62 +316,6 @@ header {
 	color: #4cb8e0;
 }
 
-/* BUTTON */
-
-.contackt_btn {
-	font-size: 14px;
-	font-family: 'Montserrat', sans-serif;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	display: inline-block;
-	text-align: center;
-	padding: 1em 1.5em;
-	border: 1.4px solid #4cb8e0;
-	border-radius: 2px;
-	position: relative;
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-	background: #4cb8e0;
-	color: #ffffff;
-	text-decoration: none;
-	transition: 0, 3s ease all;
-	z-index: 1;
-	overflow: hidden;
-	margin-top: 25px;
-}
-
-.contackt_btn:before {
-	transform: rotate(45deg);
-	transition: 0.8s all ease;
-	position: absolute;
-	top: -500%;
-	left: 50%;
-	right: 50%;
-	bottom: -500%;
-	opacity: 0;
-	content: '';
-	background-color: white;
-	z-index: -3;
-}
-
-.contackt_btn:hover,
-.contackt_btn:focus {
-	color: #4cb8e0;
-}
-
-.contackt_btn:hover:before,
-.contackt_btn:focus:before {
-	transition: 0.5s all ease;
-	left: 0;
-	right: 0px;
-	opacity: 1;
-}
-
-.contackt_btn:active {
-	transform: scale(0.9);
-}
-
-/* BUTTON ENDED */
-
 /* DIRECTIONS GRID  */
 .directions {
 	width: 100%;
@@ -386,6 +330,7 @@ header {
 	font-size: 1.5em;
 	font-weight: bold;
 	text-transform: uppercase;
+	margin: 40px 0 40px 0 ;
 }
 .linee {
 	height: 2px;
@@ -506,6 +451,7 @@ header {
 }
 .description {
 	width: 50%;
+	margin-top: 100px;
 }
 .description h6 {
 	display: flex;

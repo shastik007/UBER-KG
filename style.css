@@ -419,7 +419,7 @@ header {
 	margin-bottom: 30px;
 }
 
-.grid_directions div:hover {
+.cell:hover {
 	background-color: #4cb8e0;
 }
 
@@ -442,11 +442,19 @@ header {
 	letter-spacing: 2px;
 	color: #31609f;
 	font-family: Montserrat;
+	transition: 0.2s;
+	margin-top: 40px;
 }
-.alle span {
+.alle::after {
+	content: '→';
 	color: #31609f;
-	width: 80px;
-	height: 80px;
+	margin-left: 12px;
+}
+
+.alle:hover::after,
+.alle:hover {
+	color: white;
+	margin-left: 15px;
 }
 
 /* DIRECTIONS ENDED */

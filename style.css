@@ -59,7 +59,7 @@ header {
 	list-style: none;
 	text-decoration: none;
 }
-.nav li a {
+.nav li .link {
 	padding: 22px 1px;
 	height: 50px;
 	color: #31609f;
@@ -67,7 +67,11 @@ header {
 	letter-spacing: 0.2em;
 	transition: 0.1s;
 }
-.nav li a:hover {
+.nav li .link:hover {
+	color: #4fb5eb;
+	border-bottom: 4px solid #4fb5eb;
+}
+.uber{
 	color: #4fb5eb;
 	border-bottom: 4px solid #4fb5eb;
 }
@@ -120,6 +124,11 @@ header {
 	}
 }
 
+.sub_nav_select a{
+	text-decoration: none;
+	color: #4fb5eb;
+}
+
 .sub_nav_select .li {
 	cursor: pointer;
 	list-style: none;
@@ -135,7 +144,7 @@ header {
 	height: 50px;
 	padding: 17px;
 }
-.sub_nav_select li:hover {
+.sub_nav_select a:hover {
 	color: white;
 }
 /* menu */
